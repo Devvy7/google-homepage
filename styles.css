@@ -1,7 +1,33 @@
+.topnav {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+a {
+    float: left;
+    padding: 10px;
+}
+
+.right-nav {
+    float: right;
+    padding-right: 50px;
+}
+
 .image {
     position: relative;
     padding: 10px;
+    padding-top: 350px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.search-form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
 }
