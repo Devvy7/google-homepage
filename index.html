@@ -5,22 +5,40 @@
         <title>Google search</title>
         <link href="styles.css" rel=stylesheet>
     </head>
-    <div class="topnav">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#store">Store</a></li>
-            <li style="float:right"><a href="#gmail">Gmail</a></li>
-            <li style="float:right"><a href="#images">Images</a></li>
-        </ul>
-    </div>
+    
     <body>
-        <img src="google-logo.png" alt="Google logo" class=image>
-        <div>
-            <form id="form" class=search-form>
-                <input type="search" id="query" name="q" placeholder="Search...">
-                <button>Search</button>
-                <button>Feeling lucky?</button>
-            </form>
+        <div class="topnav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#store">Store</a></li>
+                <li style="float:right"><a href="#gmail">Gmail</a></li>
+                <li style="float:right"><a href="#images">Images</a></li>
+            </ul>
         </div>
+
+        <div class="inner">
+            <img src="google-logo.png" alt="Google logo" class=image>
+        </div>
+        <div class="search-bar">
+            <form id="form" class=search-form>
+                <input type="search" size="60" id="query" name="q" placeholder="Search...">
+            </form>
+            <div class="buttons">
+                <button style="margin-right:5px;">Search</button>
+                <button style="margin-left:5px;">I'm Feeling Lucky</button>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="botnav">
+                <ul>
+                    <li><a href="#advertising">Advertising</a></li>
+                    <li><a href="#business">Business</a></li>
+                    <li><a href="#how">How Search works</a></li>
+                    <li style="float:right"><a href="#privacy">Privacy</a></li>
+                    <li style="float:right"><a href="#terms">Terms</a></li>
+                    <li style="float:right"><a href="#settings">Settings</a></li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>
